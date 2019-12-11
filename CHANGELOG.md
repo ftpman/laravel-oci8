@@ -2,11 +2,17 @@
 
 ## [Unreleased]
 
-## [v5.8.0] - 2010-02-27
+## [v5.8.2] - 2019-06-25
 
-- Add support for Laravel 5.8 [#491].
+- Added illuminate/auth as dependency in composer.json [#508], credits to [@tumainimosha]
 
-## [v5.7.3] - 2010-02-19
+## [v5.8.1] - 2019-04-24
+
+- Fix stripping of AS from table name. [#504]
+- Facilitate wallet support. [#474]
+- Fix changelog dates & Update license to 2019 [#498]
+
+## [v5.7.3] - 2019-02-19
 
 - Fix [#485] - Preventing ORA-00933 when using fromSub method. [#486], credits to [@renanwilliam].
 
@@ -46,7 +52,9 @@
 - Fix [#406], [#404].
 - Added more options to Sequence Create Method [#355], credits to [@nikklass].
 
-[Unreleased]: https://github.com/yajra/laravel-oci8/compare/v5.8.0...5.8
+[Unreleased]: https://github.com/yajra/laravel-oci8/compare/v5.8.2...5.8
+[v5.8.2]: https://github.com/yajra/laravel-oci8/compare/v5.8.1...v5.8.2
+[v5.8.1]: https://github.com/yajra/laravel-oci8/compare/v5.8.0...v5.8.1
 [v5.8.0]: https://github.com/yajra/laravel-oci8/compare/v5.7.3...v5.8.0
 [v5.7.3]: https://github.com/yajra/laravel-oci8/compare/v5.7.2...v5.7.3
 [v5.7.2]: https://github.com/yajra/laravel-oci8/compare/v5.7.1...v5.7.2
@@ -67,6 +75,10 @@
 [#465]: https://github.com/yajra/laravel-oci8/pull/465
 [#486]: https://github.com/yajra/laravel-oci8/pull/486
 [#491]: https://github.com/yajra/laravel-oci8/pull/491
+[#504]: https://github.com/yajra/laravel-oci8/pull/504
+[#474]: https://github.com/yajra/laravel-oci8/pull/474
+[#498]: https://github.com/yajra/laravel-oci8/pull/498
+[#508]: https://github.com/yajra/laravel-oci8/pull/508
 
 [#413]: https://github.com/yajra/laravel-oci8/issue/413
 [#406]: https://github.com/yajra/laravel-oci8/issue/406
@@ -82,3 +94,4 @@
 [@gredimano]: https://github.com/gredimano
 [@Adam2Marsh]: https://github.com/Adam2Marsh
 [@renanwilliam]: https://github.com/renanwilliam
+[@tumainimosha]: https://github.com/tumainimosha
