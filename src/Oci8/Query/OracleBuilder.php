@@ -2,8 +2,9 @@
 
 namespace Yajra\Oci8\Query;
 
-use Illuminate\Database\Query\Builder;
 use Illuminate\Contracts\Support\Arrayable;
+use Illuminate\Database\Query\Builder;
+use Illuminate\Database\Query\Expression;
 
 class OracleBuilder extends Builder
 {
